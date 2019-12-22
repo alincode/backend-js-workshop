@@ -1,0 +1,15 @@
+{
+  "name": "backend-js-workshop",
+  "version": "1.0.0",
+  "description": "Javascript 後端開發教材 by alincode",
+  "main": "",
+  "scripts": {
+    "start": "gitbook serve"
+  },
+  "keywords": [],
+  "author": "alincode@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
