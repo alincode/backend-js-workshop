@@ -1,0 +1,989 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>安裝與初始化 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="config.html" />
+    
+    
+    <link rel="prev" href="../sequelize.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../job.html">
+            
+                <a href="../../job.html">
+            
+                    
+                    職務需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一週
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../env.html">
+            
+                <a href="../../env.html">
+            
+                    
+                    環境安裝
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    Node.JS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../node/">
+            
+                <a href="../../node/">
+            
+                    
+                    Node.JS 介紹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../node/core.html">
+            
+                <a href="../../node/core.html">
+            
+                    
+                    常見核心模組
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../node/exec.html">
+            
+                <a href="../../node/exec.html">
+            
+                    
+                    執行 JS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../../node/global.html">
+            
+                <a href="../../node/global.html">
+            
+                    
+                    Global Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../../node/module.html">
+            
+                <a href="../../node/module.html">
+            
+                    
+                    自訂模組
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" >
+            
+                <span>
+            
+                    
+                    ES6
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" >
+            
+                <span>
+            
+                    
+                    套件管理工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../../npm/">
+            
+                <a href="../../npm/">
+            
+                    
+                    NPM 介紹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../../npm/init.html">
+            
+                <a href="../../npm/init.html">
+            
+                    
+                    初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../../npm/script.html">
+            
+                <a href="../../npm/script.html">
+            
+                    
+                    Script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../../npm/dependencies.html">
+            
+                <a href="../../npm/dependencies.html">
+            
+                    
+                    套件管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../../npm/version.html">
+            
+                <a href="../../npm/version.html">
+            
+                    
+                    版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.6" data-path="../../common-module.html">
+            
+                <a href="../../common-module.html">
+            
+                    
+                    常用套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" >
+            
+                <span>
+            
+                    
+                    Web 框架 (上)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="../../http.html">
+            
+                <a href="../../http.html">
+            
+                    
+                    HTTP 的基礎知識
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" data-path="../../koa/">
+            
+                <a href="../../koa/">
+            
+                    
+                    介紹 Koa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.3" data-path="../../koa/application.html">
+            
+                <a href="../../koa/application.html">
+            
+                    
+                    Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.4" data-path="../../koa/context.html">
+            
+                <a href="../../koa/context.html">
+            
+                    
+                    Context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.5" data-path="../../koa/request.html">
+            
+                <a href="../../koa/request.html">
+            
+                    
+                    Request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.6" data-path="../../koa/response.html">
+            
+                <a href="../../koa/response.html">
+            
+                    
+                    Response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.7" data-path="../../vs.md">
+            
+                <span>
+            
+                    
+                    Koa VS Express
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../practice1.html">
+            
+                <a href="../../practice1.html">
+            
+                    
+                    練習題
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二週
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    Web 框架 (下)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../koa/middleware.html">
+            
+                <a href="../../koa/middleware.html">
+            
+                    
+                    中間層
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../../koa/router.html">
+            
+                <a href="../../koa/router.html">
+            
+                    
+                    路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../../restful.html">
+            
+                <a href="../../restful.html">
+            
+                    
+                    RESTFul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../../koa/jwt.html">
+            
+                <a href="../../koa/jwt.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../../koa/static.html">
+            
+                <a href="../../koa/static.html">
+            
+                    
+                    靜態頁面
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../testing/">
+            
+                <a href="../../testing/">
+            
+                    
+                    測試開發
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../testing/jest.html">
+            
+                <a href="../../testing/jest.html">
+            
+                    
+                    Jest
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../practice2.html">
+            
+                <a href="../../practice2.html">
+            
+                    
+                    練習題
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三週
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    整合資料庫
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../sequelize.html">
+            
+                <a href="../sequelize.html">
+            
+                    
+                    Sequelize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.1.2" data-path="init.html">
+            
+                <a href="init.html">
+            
+                    
+                    安裝與初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="config.html">
+            
+                <a href="config.html">
+            
+                    
+                    設定檔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.4" data-path="model.html">
+            
+                <a href="model.html">
+            
+                    
+                    model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.5" data-path="migrations.html">
+            
+                <a href="migrations.html">
+            
+                    
+                    變動
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" >
+            
+                <span>
+            
+                    
+                    整合前端
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../view/rendering.html">
+            
+                <a href="../../view/rendering.html">
+            
+                    
+                    Rendering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../view/templates.html">
+            
+                <a href="../../view/templates.html">
+            
+                    
+                    樣板系統
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../view/handlebars.html">
+            
+                <a href="../../view/handlebars.html">
+            
+                    
+                    handlebars.js 語法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../practice3.html">
+            
+                <a href="../../practice3.html">
+            
+                    
+                    練習題
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../resource.html">
+            
+                <a href="../../resource.html">
+            
+                    
+                    自學學習資源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >安裝與初始化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5B89;&#x88DD;--&#x521D;&#x59CB;&#x5316;">&#x5B89;&#x88DD; &amp; &#x521D;&#x59CB;&#x5316;</h1>
+<pre><code>npm init -y
+npm install sequelize -S
+npm install mysql2 -S
+
+# npm install --save sqlite3
+npm install sequelize-cli -g
+sequelize init
+</code></pre><pre><code>.
+&#x251C;&#x2500;&#x2500; config
+&#x2502;   &#x2514;&#x2500;&#x2500; config.json
+&#x251C;&#x2500;&#x2500; migrations
+&#x251C;&#x2500;&#x2500; models
+&#x2502;   &#x2514;&#x2500;&#x2500; index.js
+&#x251C;&#x2500;&#x2500; package-lock.json
+&#x2514;&#x2500;&#x2500; seeders
+</code></pre><ul>
+<li><a href="https://github.com/sequelize/cli" target="_blank">https://github.com/sequelize/cli</a></li>
+</ul>
+<h2 id="&#x5E38;&#x7528;&#x6307;&#x4EE4;">&#x5E38;&#x7528;&#x6307;&#x4EE4;</h2>
+<pre><code># &#x65B0;&#x589E;&#x8CC7;&#x6599;&#x5EAB;
+sequelize db:create
+
+# &#x57F7;&#x884C; migrate
+sequelize db:migrate
+
+# &#x9084;&#x539F; migrate
+sequelize db:migrate:undo:all
+
+# &#x65B0;&#x589E;&#x7A7A;&#x767D;&#x7684; migrate &#x6A94;&#x6848;
+sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string
+
+# &#x65B0;&#x589E;&#x7A7A;&#x767D;&#x7684; seed &#x6A94;&#x6848;
+sequelize seed:generate --name data
+</code></pre><h2 id="&#x6240;&#x6709;&#x6307;&#x4EE4;">&#x6240;&#x6709;&#x6307;&#x4EE4;</h2>
+<pre><code>Sequelize CLI [Node: 10.15.0, CLI: 5.5.0, ORM: 5.11.0]
+
+npx sequelize [command]
+
+Commands:
+  sequelize db:migrate                        Run pending migrations
+  sequelize db:migrate:schema:timestamps:add  Update migration table to have timestamps
+  sequelize db:migrate:status                 List the status of all migrations
+  sequelize db:migrate:undo                   Reverts a migration
+  sequelize db:migrate:undo:all               Revert all migrations ran
+  sequelize db:seed                           Run specified seeder
+  sequelize db:seed:undo                      Deletes data from the database
+  sequelize db:seed:all                       Run every seeder
+  sequelize db:seed:undo:all                  Deletes data from the database
+  sequelize db:create                         Create database specified by configuration
+  sequelize db:drop                           Drop database specified by configuration
+  sequelize init                              Initializes project
+  sequelize init:config                       Initializes configuration
+  sequelize init:migrations                   Initializes migrations
+  sequelize init:models                       Initializes models
+  sequelize init:seeders                      Initializes seeders
+  sequelize migration:generate                Generates a new migration file       [aliases: migration:create]
+  sequelize model:generate                    Generates a model and its migration  [aliases: model:create]
+  sequelize seed:generate                     Generates a new seed file            [aliases: seed:create]
+
+Options:
+  --version  Show version number                                         [boolean]
+  --help     Show help                                                   [boolean]
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../sequelize.html" class="navigation navigation-prev " aria-label="Previous page: Sequelize">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="config.html" class="navigation navigation-next " aria-label="Next page: 設定檔">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"安裝與初始化","level":"1.5.1.2","depth":3,"next":{"title":"設定檔","level":"1.5.1.3","depth":3,"path":"db/sequelize/config.md","ref":"db/sequelize/config.md","articles":[]},"previous":{"title":"Sequelize","level":"1.5.1.1","depth":3,"path":"db/sequelize.md","ref":"db/sequelize.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"db/sequelize/init.md","mtime":"2021-02-25T00:04:26.533Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-25T00:05:00.613Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
